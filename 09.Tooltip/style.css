@@ -9,7 +9,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#acdb1d, #7151e4, rgb(192, 56, 56));
+  background: linear-gradient(#acdb1d, #eff9a0);
   font-family: sans-serif;
 }
 #container{
@@ -40,12 +40,14 @@ body{
   left: 50%;
   top: 100%;
   transform: translateX(-50%);
-  border: 13px solid;
-  border-color: #000;
+  border: 15px solid;
+  border-color: #000 #0000 #0000 #0000;
+
+
 }
 
 #container:hover #tooltip-context{
-  top: -160%;
+  top: -130%;
   visibility: visible;
   opacity: 1;
 }
